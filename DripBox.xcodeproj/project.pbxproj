@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB2C564E1D979B9F00DB28A7 /* photosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2C564D1D979B9F00DB28A7 /* photosViewController.swift */; };
+		CB2C56501D979DD400DB28A7 /* existingAccountSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2C564F1D979DD400DB28A7 /* existingAccountSettingsViewController.swift */; };
+		CB2C56541D9A33B600DB28A7 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2C56531D9A33B600DB28A7 /* CreateAccountRootViewController.swift */; };
+		CB2C56561D9A3AE300DB28A7 /* forgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2C56551D9A3AE300DB28A7 /* forgotPasswordViewController.swift */; };
+		CB7BC3271D977E400059F824 /* termsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7BC3261D977E400059F824 /* termsViewController.swift */; };
+		CB8DC6FF1D978BA4001CBEFC /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8DC6FE1D978BA4001CBEFC /* settingsViewController.swift */; };
 		CBA9F3F71D97718600799CF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA9F3F61D97718600799CF3 /* AppDelegate.swift */; };
 		CBA9F3F91D97718600799CF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA9F3F81D97718600799CF3 /* ViewController.swift */; };
 		CBA9F3FC1D97718600799CF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA9F3FA1D97718600799CF3 /* Main.storyboard */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB2C564D1D979B9F00DB28A7 /* photosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = photosViewController.swift; path = ../photosViewController.swift; sourceTree = "<group>"; };
+		CB2C564F1D979DD400DB28A7 /* existingAccountSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = existingAccountSettingsViewController.swift; sourceTree = "<group>"; };
+		CB2C56531D9A33B600DB28A7 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		CB2C56551D9A3AE300DB28A7 /* forgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forgotPasswordViewController.swift; sourceTree = "<group>"; };
+		CB7BC3261D977E400059F824 /* termsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = termsViewController.swift; sourceTree = "<group>"; };
+		CB8DC6FE1D978BA4001CBEFC /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
 		CBA9F3F31D97718600799CF3 /* DripBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DripBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA9F3F61D97718600799CF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBA9F3F81D97718600799CF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +86,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB32DA861D9793300040DF8C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB2C56551D9A3AE300DB28A7 /* forgotPasswordViewController.swift */,
+				CB2C564D1D979B9F00DB28A7 /* photosViewController.swift */,
+				CB8DC6FE1D978BA4001CBEFC /* settingsViewController.swift */,
+				CB2C564F1D979DD400DB28A7 /* existingAccountSettingsViewController.swift */,
+				CB7BC3261D977E400059F824 /* termsViewController.swift */,
+				CB2C56531D9A33B600DB28A7 /* CreateAccountRootViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		CBA9F3EA1D97718600799CF3 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +125,7 @@
 				CBA9F3F61D97718600799CF3 /* AppDelegate.swift */,
 				CBA9F3F81D97718600799CF3 /* ViewController.swift */,
 				CBA9F3FA1D97718600799CF3 /* Main.storyboard */,
+				CB32DA861D9793300040DF8C /* ViewControllers */,
 				CBA9F3FD1D97718600799CF3 /* Assets.xcassets */,
 				CBA9F3FF1D97718600799CF3 /* LaunchScreen.storyboard */,
 				CBA9F4021D97718600799CF3 /* Info.plist */,
@@ -259,8 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB2C56561D9A3AE300DB28A7 /* forgotPasswordViewController.swift in Sources */,
+				CB2C56541D9A33B600DB28A7 /* CreateAccountRootViewController.swift in Sources */,
+				CB2C564E1D979B9F00DB28A7 /* photosViewController.swift in Sources */,
+				CB7BC3271D977E400059F824 /* termsViewController.swift in Sources */,
+				CB2C56501D979DD400DB28A7 /* existingAccountSettingsViewController.swift in Sources */,
 				CBA9F3F91D97718600799CF3 /* ViewController.swift in Sources */,
 				CBA9F3F71D97718600799CF3 /* AppDelegate.swift in Sources */,
+				CB8DC6FF1D978BA4001CBEFC /* settingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +535,7 @@
 				CBA9F41D1D97718600799CF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBA9F41E1D97718600799CF3 /* Build configuration list for PBXNativeTarget "DripBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +544,7 @@
 				CBA9F4201D97718600799CF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBA9F4211D97718600799CF3 /* Build configuration list for PBXNativeTarget "DripBoxUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +553,7 @@
 				CBA9F4231D97718600799CF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
