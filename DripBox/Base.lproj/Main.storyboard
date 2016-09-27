@@ -342,42 +342,6 @@
             </objects>
             <point key="canvasLocation" x="5571" y="3445"/>
         </scene>
-        <!--Settings View Controller-->
-        <scene sceneID="bxb-Xx-HWW">
-            <objects>
-                <viewController id="Wtv-wp-o8o" customClass="settingsViewController" customModule="DripBox" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="KSd-MX-PZg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" id="Zlv-mO-jSJ">
-                                <frame key="frameInset" width="375" height="1250"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="settings" id="4mf-Ab-3Om">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="907"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9jd-UU-OJR">
-                                        <rect key="frame" x="44" y="802" width="287" height="66"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </button>
-                                </subviews>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="7q8-37-1N5"/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="1000"/>
-                    <connections>
-                        <outlet property="settingsScrollView" destination="Zlv-mO-jSJ" id="hAG-zK-nVR"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kha-W2-Swd" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="6076.5" y="3565"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="3bK-5N-2UI">
             <objects>
@@ -583,8 +547,12 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="cc2-Vd-nXZ">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
-                        <segue destination="Wtv-wp-o8o" kind="relationship" relationship="rootViewController" id="u9I-TC-dKC"/>
+                        <segue destination="aAP-Ga-dfQ" kind="relationship" relationship="rootViewController" id="Ki3-ec-0GU"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ncE-rE-B3x" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -884,6 +852,50 @@
             </objects>
             <point key="canvasLocation" x="2443" y="1844"/>
         </scene>
+        <!--Test View Controller-->
+        <scene sceneID="yk1-qz-2yf">
+            <objects>
+                <viewController id="aAP-Ga-dfQ" customClass="testViewController" customModule="DripBox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gma-uI-lE1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="vUY-yk-tDW">
+                                <frame key="frameInset" width="375" height="1000"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView opaque="NO" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="settings" id="Ehy-la-cYZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="375.5" height="907"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SXv-VH-Kgd">
+                                        <rect key="frame" x="44" y="791" width="286.07796637993761" height="66"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hyR-eA-TOK">
+                                        <rect key="frame" x="44" y="805" width="286" height="66"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="2TX-vd-UcP" kind="modal" modalTransitionStyle="crossDissolve" id="kSA-e3-ubX"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9eQ-GX-Q5B"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1000"/>
+                    <connections>
+                        <outlet property="scrollView" destination="vUY-yk-tDW" id="QMi-pL-zTh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o4H-rS-85c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6076.5" y="3611"/>
+        </scene>
     </scenes>
     <resources>
         <image name="create1" width="320" height="568"/>
@@ -918,6 +930,6 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="ozI-fe-dzH"/>
+        <segue reference="kSA-e3-ubX"/>
     </inferredMetricsTieBreakers>
 </document>

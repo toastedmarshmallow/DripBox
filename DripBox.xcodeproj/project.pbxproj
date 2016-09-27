@@ -11,8 +11,8 @@
 		CB2C56501D979DD400DB28A7 /* existingAccountSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2C564F1D979DD400DB28A7 /* existingAccountSettingsViewController.swift */; };
 		CB2C56541D9A33B600DB28A7 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2C56531D9A33B600DB28A7 /* CreateAccountRootViewController.swift */; };
 		CB2C56561D9A3AE300DB28A7 /* forgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2C56551D9A3AE300DB28A7 /* forgotPasswordViewController.swift */; };
+		CB2C56581D9A402B00DB28A7 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2C56571D9A402B00DB28A7 /* testViewController.swift */; };
 		CB7BC3271D977E400059F824 /* termsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7BC3261D977E400059F824 /* termsViewController.swift */; };
-		CB8DC6FF1D978BA4001CBEFC /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8DC6FE1D978BA4001CBEFC /* settingsViewController.swift */; };
 		CBA9F3F71D97718600799CF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA9F3F61D97718600799CF3 /* AppDelegate.swift */; };
 		CBA9F3F91D97718600799CF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA9F3F81D97718600799CF3 /* ViewController.swift */; };
 		CBA9F3FC1D97718600799CF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA9F3FA1D97718600799CF3 /* Main.storyboard */; };
@@ -44,8 +44,8 @@
 		CB2C564F1D979DD400DB28A7 /* existingAccountSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = existingAccountSettingsViewController.swift; sourceTree = "<group>"; };
 		CB2C56531D9A33B600DB28A7 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		CB2C56551D9A3AE300DB28A7 /* forgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forgotPasswordViewController.swift; sourceTree = "<group>"; };
+		CB2C56571D9A402B00DB28A7 /* testViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
 		CB7BC3261D977E400059F824 /* termsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = termsViewController.swift; sourceTree = "<group>"; };
-		CB8DC6FE1D978BA4001CBEFC /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
 		CBA9F3F31D97718600799CF3 /* DripBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DripBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA9F3F61D97718600799CF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBA9F3F81D97718600799CF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 		CB32DA861D9793300040DF8C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CB2C56571D9A402B00DB28A7 /* testViewController.swift */,
 				CB2C56551D9A3AE300DB28A7 /* forgotPasswordViewController.swift */,
 				CB2C564D1D979B9F00DB28A7 /* photosViewController.swift */,
-				CB8DC6FE1D978BA4001CBEFC /* settingsViewController.swift */,
 				CB2C564F1D979DD400DB28A7 /* existingAccountSettingsViewController.swift */,
 				CB7BC3261D977E400059F824 /* termsViewController.swift */,
 				CB2C56531D9A33B600DB28A7 /* CreateAccountRootViewController.swift */,
@@ -288,11 +288,11 @@
 				CB2C56561D9A3AE300DB28A7 /* forgotPasswordViewController.swift in Sources */,
 				CB2C56541D9A33B600DB28A7 /* CreateAccountRootViewController.swift in Sources */,
 				CB2C564E1D979B9F00DB28A7 /* photosViewController.swift in Sources */,
+				CB2C56581D9A402B00DB28A7 /* testViewController.swift in Sources */,
 				CB7BC3271D977E400059F824 /* termsViewController.swift in Sources */,
 				CB2C56501D979DD400DB28A7 /* existingAccountSettingsViewController.swift in Sources */,
 				CBA9F3F91D97718600799CF3 /* ViewController.swift in Sources */,
 				CBA9F3F71D97718600799CF3 /* AppDelegate.swift in Sources */,
-				CB8DC6FF1D978BA4001CBEFC /* settingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

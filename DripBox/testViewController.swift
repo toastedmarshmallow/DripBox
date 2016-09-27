@@ -1,24 +1,23 @@
 //
-//  settingsViewController.swift
+//  testViewController.swift
 //  DripBox
 //
-//  Created by Shannan Hsiao on 9/24/16.
+//  Created by Shannan Hsiao on 9/26/16.
 //  Copyright © 2016 Shannan Hsiao. All rights reserved.
 //
 
 import UIKit
 
-class settingsViewController: UIViewController {
-    
-    @IBOutlet weak var settingsScrollView: UIScrollView!
+class testViewController: UIViewController {
+
+    @IBOutlet weak var scrollView: UIScrollView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.navigationItem.title = "Settings"
 
+        self.navigationItem.title = "Settings"
         
-        //settingsScrollView.contentSize = CGSize(width: 375, height: 1250)
+        scrollView.contentSize = CGSize(width: 375, height: 1250)
         // Do any additional setup after loading the view.
     }
 
